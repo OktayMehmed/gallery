@@ -1,0 +1,36 @@
+.gallery-container {
+  text-align: center;
+}
+
+.gallery-header {
+  background: gray;
+  height: 8vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.user-name {
+  margin: 0;
+  color: black;
+  margin-right: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.gallery-search {
+  margin-top: 20px;
+  width: 600px;
+  border: 2px solid #2196f3;
+  border-radius: 6px;
+  font-size: 18px;
+  padding-left: 10px;
+  height: 40px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 500px;
+}
