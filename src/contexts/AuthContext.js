@@ -9,7 +9,7 @@ export const AuthProvidev = ({ children }) => {
   });
 
   const setName = (name) => {
-    localStorage.setItem("username", JSON.stringify(userName))
+    localStorage.setItem("username", JSON.stringify(name))
     setUserName(name)
   }
   return (
